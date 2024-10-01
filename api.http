@@ -12,3 +12,11 @@ Content-Type: {{contentType}}
     "genre": "Fantasia",
     "cover": "https://m.media-amazon.com/images/I/81SM0D5+DwL._SL1500_.jpg"
 }
+
+###
+GET {{baseUrl}}/books
+Content-Type: {{contentType}}
+
+###
+GET {{baseUrl}}/books/66fbec122464a0b8cd2f25c2
+Content-Type: {{contentType}}
