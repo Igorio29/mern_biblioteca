@@ -27,7 +27,7 @@ Content-Type: {{contentType}}
 
 //METODO PUT (ATUALIZA AS INFORMAÇÕES DO BANCO)
 ###
-PUT {{baseUrl}}/books/670e6317ef3d3d7e0206f933
+PUT {{baseUrl}}/books/66fbec122464a0b8cd2f25c2
 Content-Type: {{contentType}}
 
 {

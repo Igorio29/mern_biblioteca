@@ -44,6 +44,7 @@ export const getBook = async (req, res) => {
     res.status(500).json({ success: false, error: "Error fetching book" });
   }
 };
+
 export const updateBook = async (req, res) => {
   const { id } = req.params;
   const { title, subtitle, author, genre, cover } = req.body;
